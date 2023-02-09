@@ -1,0 +1,29 @@
+<script>
+    //converting from one datatype to another datatype:
+    
+    var result = true + "hello";
+    console.log(typeof result);
+    //It will convert into string when we use +
+
+    var result = 23 * "hello";
+    console.log(result);
+    //datatype will be number we cannot covert * into string.
+
+    const string = ""
+    const number = 40
+    const boolean = true
+    console.log(!boolean)
+    //always it will return boolean value.
+
+    var result = 40 + true;
+    console.log(result);
+    //number + boolean --> number
+    
+    result = false + ""
+    console.log(result);
+    //boolean + string --->string
+
+    result = 40 + ""
+    console.log(result);
+    //number + string --->string
+</script>
